@@ -9,7 +9,7 @@ namespace OnlineEdu.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BlogCategoriesController(IGenericService<BlogCategory> _blogCategoryService, IMapper _mapper) : ControllerBase
+    public class BlogCategoryController(IGenericService<BlogCategory> _blogCategoryService, IMapper _mapper) : ControllerBase
     {
 
         [HttpGet]
